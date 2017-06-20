@@ -1,5 +1,5 @@
 		<!--CLIENTS SECTION END-->
-	    <footer id="footer-sec" style="height: 350px;" >
+	    <footer id="footer-sec" > <!--coloquei um comentario e modifiquei-->
 	        <div class="container">
 	            <div class="row">
 					<div class="col-md-4  col-12">

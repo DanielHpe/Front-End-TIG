@@ -21,15 +21,6 @@ $(document).ready(function(){
 
 	});	
 
-	$("#la-1").on("mouseover", function(){
-
-		alert("Deu Certo");
-
-	}).on("mouseout", function(){
-
-		$("#la-1").removeClass("change");
-
-	});
 
 	/*$("#pesquisar").on("click", function(){
 
