@@ -73,12 +73,13 @@
 		<section class="grafo">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7" id="graph">
+					<div class="col-md-7" id="graph" style="margin-right: 10px;">
 						<h1 class="text-center">AQUI FICA O GRAFO</h1>
 					</div>
 					<div class="col-md-4 info-node-xs">
 						<h1>STATS</h1>
 						<hr class="hr-setup">
+						<h3>Author Name: </h3>
 						<h3>ID Author: </h3>
 						<h3>Nº. Quots: </h3>
 						<h3>Nº. Articles: </h3>
@@ -89,10 +90,10 @@
 		</section>	
 
 
-		<section style="margin-top: 100px; margin-bottom: 100px;" id="informations">
+		<section style="margin-top: 100px;" id="informations">
 			<div class="container">
 				<div class="row">
-			        <div class="col-md-8" id="col-md-graphic">
+			        <div class="col-md-8">
 		              	<h1>GRAPHIC</h1>
 		              	<hr class="hr-setup1">
 		            </div>

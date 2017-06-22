@@ -13,8 +13,8 @@
         </section>
 
         <section id="research">
-            <div class="container text-center bloco2">
-                <a href="search2.php"><button class="btn btn-primary" >SEARCH GRAPH</button></a>
+            <div class="container text-center">
+                <a href="search2.php"><button class="btn btn-primary" id="pesquisar">SEARCH GRAPH</button></a>
             </div>
         </section>
 
@@ -34,7 +34,7 @@
                     <div class="col-md-8" id="md-01">
                         <h3><strong>Complex Network</strong></h3>
                         <div class="col-md-4 p-top-rr visible-xs " >
-                        		<img src="img/download.jpg" class="img-responsive img-rounded" alt="" />
+                        <img src="img/download.jpg" class="img-responsive img-rounded" alt="" />
                     	</div>
                         <p>Currently the network is present in everything in the world, for example computer network, internet network, network of the food chain, network partners, hotel network and etc. Some big and complex and some simple and small. But then what is a network? Network is a set of entities (people, objects and etc.) interconnected to each other.</p>
                         <p>But then what would be a study of complex networks?
@@ -50,6 +50,7 @@
                     </div>
                     <div class="col-md-8" id="md-02">
                         <h3><strong>Coauthorship Relations</strong></h3>
+                        <img src="img/scopus.jpg" class="img-responsive img-rounded visible-xs" alt="" id="img-02" />
                         <p>
                             It was verified that there are several studies on complex networks of the most diverse authors and there is not a place to centralize all these studies for this was created the relations of coautoria with that was used the database of Scopus.
                             The co-authoring relationship has the concept of social network, but focused on the collaboration between authors and co-authors. Lately, this relationship has aroused the interest of the students, due to the evolution of the research communities. 
@@ -86,7 +87,7 @@
         </section>
 
 		<!--FEATURES SECTION END -->
-    	<section>
+    	<section class="assets-pc">
         	<div class="container">
             	<div class="row">
 					<div class="col-md-12">
@@ -99,7 +100,7 @@
 
 
     	 <!--HOME SECTION END-->
-        <section style="margin-bottom: 120px;">
+        <section id="tools-sec">
             <div class="container" id="tools">
                 <div id="jq" class="row p-top-row">
                     <div class="col-md-4 p-top-row" >
@@ -107,7 +108,7 @@
                     </div>
                     <div class="col-md-8" >
                         <h3><strong>JQUERY</strong></h3>
-                                   
+                        <img src="img/jquery.gif" class="img-responsive img-rounded jquery visible-xs" alt="" />                        
                         <p>
                           
                             JQuery is a JavaScript function library that interacts with HTML, designed to simplify interpreted scripts in the client-side browser. Launched in December 2006 at the BarCamp in New York by John Resig. Used by about 77% of the 10,000 most visited sites in the world, jQuery is the most popular JavaScript library.</p>
@@ -129,13 +130,13 @@
                         </p> 
                     </div>
                     <div class="col-md-4 p-top-row" >
-                        <img src="img/javascript-logo.png" class="img-responsive img-rounded javas" alt="" />
+                        <img src="img/javascript-logo.png" class="img-responsive img-rounded javas" id="jv-xs"  alt="" />
                     </div>
                     
                 </div>
                 <div id="slab" class="row p-top-row">
                     <div class="col-md-4 p-top-r" id="soci-img" >
-                        <img src="img/socilab.png" class="img-responsive img-rounded socilab" alt="" />
+                        <img src="img/socilab.png" class="img-responsive img-rounded socilab" id="sc-xs" alt="" />
                     </div>
                      
                     <div class="col-md-8" >

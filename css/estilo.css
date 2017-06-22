@@ -520,7 +520,8 @@ h4 {
 
 #graph{
     height: 650px;
-    border:1px solid #ccc
+    border:1px solid #ccc;
+    margin-right: 10px;
 }
 #info-autores{
     border-left:2px solid #fff;  
@@ -603,9 +604,15 @@ h4 {
     transform: rotate(180deg);
 }
 .hrr{
-    border-top: 2px solid #000;
+    border-top: 2px solid black;
     margin-left: -16px;
     margin-top: -20px;
+    width: 100%;
+}
+.hrt {
+    border-top: 1px solid #000;
+    margin-left: 0;
+    margin-top: 0px;
     width: 100%;
 }
 #articles-authors a{
@@ -623,8 +630,10 @@ h4 {
 #labels a{
     text-decoration: none;
 }
-.grafo.col-md-4{
-    border: 2px solid #ccc; margin-left: 10px; height: 650px;
+.grafo .col-md-4{
+    border: 2px solid #ccc; 
+    height: 650px;
+    background: #EFEFEF;
 }
 /* =============================================================
    SEARCH.PHP ADD CLASSES
@@ -636,7 +645,7 @@ h4 {
 /* -mudanças Raul */
 /* -Até 768px executa essa parte do codigo */
 @media screen and (max-width: 991px){
- 
+
 #assets-img{
     margin-left: px;
     margin-top: -70px;
@@ -711,12 +720,19 @@ h4 {
     width: 100%;
   
 }
-.info-node-xs{
+.grafo .col-md-4{
     border: 2px solid #ccc;
     margin-left: 10px;
     height: 650px;
     width: 80%;
     margin-left: 38px;
+}
+.grafo .col-md-4 h1{
+    text-align: center;
+}
+.grafo .col-md-4 h3{
+    text-align: center;
+    padding-top: 30px;
 }
 .bloco1 button:hover, .bloco2 button:hover, .bloco3 button:hover{
 	
@@ -766,27 +782,37 @@ h4 {
 }
 #articles-authors{
 	margin-top:30px;
-	height:800px;
+    height: 875px;
 }
 #articles-authors #available{
 	margin-top:-50px;
 	margin-left:30px;
 }
-#articles-authors .autor, .artigo{
+#articles-authors .autor{
 	margin-left:30px;
+    border: none;
+}
+#articles-authors .artigo{
+    margin-left:30px;
+    border: none;
+}
+#articles-authors .autor h3{
+    text-align: center;
+}
+#articles-authors .artigo h3{
+    text-align: center;
 }
 #labels{
-	
-	margin-top:20px;
+	margin-top: 20px;
+    padding-top: 70px;
 }
-
-.keyword{
-	height:300px;
+#informations .col-md-8{
+    margin-bottom: 300px;
 }
 #footer-sec {
     background-color:#121212;
     padding-top:30px;
-	margin-top:-55px;
+    margin-top:0px;
     color: #DFD1D1;
 }
 #footer-sec p{
@@ -1343,16 +1369,7 @@ h4 {
 #footer-sec p{
     text-align: justify;
 }
-.dropdown-menu>li>a {
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap;
-    height: 50px;
-}
+
 
 
 
