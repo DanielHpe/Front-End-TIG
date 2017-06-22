@@ -1,74 +1,74 @@
 <?php include_once("header.php"); ?>
 
 
-	    <section id="search-domain">
-		    <div class="overlays">
-		        <div class="container">
-		        	<div class="row" id="push-input">
-				        	<div class="dropdown" id="drop">
-								    <p><strong>SELECT THE FIELD</strong></p><button class="btn btn-info btn-lg btn-set dropdown-toggle input-cls" type="button" data-toggle="dropdown" id="button-dropdown">SELECT<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
-								    <ul class="dropdown-menu" id="drop-menu">
-								      	<li><a href="#">ARTS</a></li>
-								      	<li><a href="#">NEURO-SCIENCE</a></li>
-								      	<li><a href="#">HISTORY</a></li>		
-								      	<li><a href="#">QUIMISTRY</a></li>
-								      	<li><a href="#">MATH</a></li>
-								      	<li><a href="#">LITERATURE</a></li>
-										<li><a href="#">MEDICINE</a></li>
-								      	<li><a href="#">ASTRO-PHISICS</a></li>
-								    </ul>
-							</div>
+<section id="search-domain">
+	<div class="overlays">
+		<div class="container">
+			<div class="row" id="push-input">
+				<div class="dropdown" id="drop">
+						<p><strong>SELECT THE FIELD</strong></p><button class="btn btn-info btn-lg btn-set dropdown-toggle input-cls" type="button" data-toggle="dropdown" id="button-dropdown">SELECT<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu" id="drop-menu">
+							<li><a href="#">ARTS</a></li>
+							<li><a href="#">NEURO-SCIENCE</a></li>
+							<li><a href="#">HISTORY</a></li>		
+							<li><a href="#">QUIMISTRY</a></li>
+							<li><a href="#">MATH</a></li>
+							<li><a href="#">LITERATURE</a></li>
+							<li><a href="#">MEDICINE</a></li>
+							<li><a href="#">ASTRO-PHISICS</a></li>
+						</ul>
+				</div>
 
-							<div class="dropdown visible-xs" id="drop">
-								    <button class="btn btn-info btn-lg btn-set dropdown-toggle input-cls" type="button" data-toggle="dropdown" id="button-dropdown">SELECT THE FIELD<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
-								    <ul class="dropdown-menu" id="drop-menu">
-								      	<li><a href="#">ARTS</a></li>
-								      	<li><a href="#">NEURO-SCIENCE</a></li>
-								      	<li><a href="#">HISTORY</a></li>		
-								      	<li><a href="#">QUIMISTRY</a></li>
-								      	<li><a href="#">MATH</a></li>
-								      	<li><a href="#">LITERATURE</a></li>
-										<li><a href="#">MEDICINE</a></li>
-								      	<li><a href="#">ASTRO-PHISICS</a></li>
-								    </ul>
-							</div>
+				<div class="dropdown visible-xs" id="drop">
+						<button class="btn btn-info btn-lg btn-set dropdown-toggle input-cls" type="button" data-toggle="dropdown" id="button-dropdown">SELECT THE FIELD<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu" id="drop-menu">
+							<li><a href="#">ARTS</a></li>
+							<li><a href="#">NEURO-SCIENCE</a></li>
+							<li><a href="#">HISTORY</a></li>		
+							<li><a href="#">QUIMISTRY</a></li>
+							<li><a href="#">MATH</a></li>
+							<li><a href="#">LITERATURE</a></li>
+							<li><a href="#">MEDICINE</a></li>
+							<li><a href="#">ASTRO-PHISICS</a></li>
+						</ul>
+				</div>
 
-			                <div class="dropdown" id="dropou" style="margin-top: 20px;">
-			                        <p><strong>SELECT THE KEYWORD</strong></p><button class="btn btn-danger dropdown-toggle input-cl" type="button" data-toggle="dropdown" id="button-dropdown">SELECT<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
-			                        <ul class="dropdown-menu" id="dropou-menu">
-			                            <li><a href="#">QUIMISTRY</a></li>
-			                            <li><a href="#">AÇÃO</a></li>
-			                            <li><a href="#">BIOGRAFIA</a></li>      
-			                            <li><a href="#">CONTRIBUIÇÃO</a></li>
-			                            <li><a href="#">CITAÇÕES</a></li>
-			                            <li><a href="#">HISTÓRICO</a></li>
-			                            <li><a href="#">NOMEAÇÕES</a></li>
-			                            <li><a href="#">PRESTÍGIO</a></li>
-			                        </ul>
-			                </div> 
+				<div class="dropdown" id="dropou" style="margin-top: 20px;">
+						<p><strong>SELECT THE KEYWORD</strong></p><button class="btn btn-danger dropdown-toggle input-cl" type="button" data-toggle="dropdown" id="button-dropdown">SELECT<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu" id="dropou-menu">
+							<li><a href="#">QUIMISTRY</a></li>
+							<li><a href="#">AÇÃO</a></li>
+							<li><a href="#">BIOGRAFIA</a></li>      
+							<li><a href="#">CONTRIBUIÇÃO</a></li>
+							<li><a href="#">CITAÇÕES</a></li>
+							<li><a href="#">HISTÓRICO</a></li>
+							<li><a href="#">NOMEAÇÕES</a></li>
+							<li><a href="#">PRESTÍGIO</a></li>
+						</ul>
+				</div> 
 
-			                <div class="dropdown visible-xs" id="dropou" style="margin-top: 20px;">
-			                        <button class="btn btn-danger dropdown-toggle input-cl" type="button" data-toggle="dropdown" id="button-dropdown">SELECT THE KEYWORD<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
-			                        <ul class="dropdown-menu" id="dropou-menu">
-			                            <li><a href="#">QUIMISTRY</a></li>
-			                            <li><a href="#">AÇÃO</a></li>
-			                            <li><a href="#">BIOGRAFIA</a></li>      
-			                            <li><a href="#">CONTRIBUIÇÃO</a></li>
-			                            <li><a href="#">CITAÇÕES</a></li>
-			                            <li><a href="#">HISTÓRICO</a></li>
-			                            <li><a href="#">NOMEAÇÕES</a></li>
-			                            <li><a href="#">PRESTÍGIO</a></li>
-			                        </ul>
-			                </div>   
+				<div class="dropdown visible-xs" id="dropou" style="margin-top: 20px;">
+						<button class="btn btn-danger dropdown-toggle input-cl" type="button" data-toggle="dropdown" id="button-dropdown">SELECT THE KEYWORD<i class="fa fa-caret-down pull-right" aria-hidden="true"></i></button>
+						<ul class="dropdown-menu" id="dropou-menu">
+							<li><a href="#">QUIMISTRY</a></li>
+							<li><a href="#">AÇÃO</a></li>
+							<li><a href="#">BIOGRAFIA</a></li>      
+							<li><a href="#">CONTRIBUIÇÃO</a></li>
+							<li><a href="#">CITAÇÕES</a></li>
+							<li><a href="#">HISTÓRICO</a></li>
+							<li><a href="#">NOMEAÇÕES</a></li>
+							<li><a href="#">PRESTÍGIO</a></li>
+						</ul>
+				</div>   
 
-						<a href="search.php"><button class="btn btn-primary" id="pesquisar01">SEARCH</button></a>
+			<a href="search.php"><button class="btn btn-primary" id="pesquisar01">SEARCH</button></a>
 
 
-			               <!--<div class="col-md-4">
-			                    <input type="button" class="btn btn-info btn-lg btn-set" value="PROCURAR GRAFO" />
-		                </div> !-->
-		            </div>    
-		        </div>
+					   <!--<div class="col-md-4">
+							<input type="button" class="btn btn-info btn-lg btn-set" value="PROCURAR GRAFO" />
+					</div> !-->
+				</div>    
+		      </div>
 		    </div>
 	    </section> 
 

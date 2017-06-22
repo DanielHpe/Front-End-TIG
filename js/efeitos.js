@@ -129,6 +129,24 @@ $(document).ready(function(){
 		$('#ferramentas-new').animatescroll({scrollSpeed:1000});
 
 	})
+	//-------------botao pesquisar
+	
+	$("#pesquisar1").on("click", function(){
+		
+		$('#pesquisar1').animatescroll({scrollSpeed:1000});
+		
+
+	})
+	
+	$("#anime-pesq").on("click", function(){
+
+		$('#pesquisar1').animatescroll({scrollSpeed:1000});
+
+	})
+	
+	
+	
+	//-------------fim botao pesquisa
 
 
 	$("#button-dropdown").on("click",function(){

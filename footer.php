@@ -1,4 +1,4 @@
-		<!--CLIENTS SECTION END-->
+			<!--CLIENTS SECTION END-->
 	    <footer id="footer-sec" > <!--coloquei um comentario e modifiquei-->
 	        <div class="container">
 	            <div class="row">

@@ -13,8 +13,8 @@
         </section>
 
         <section id="research">
-            <div class="container text-center">
-                <a href="search.php"><button class="btn btn-primary" id="pesquisar">SEARCH GRAPH</button></a>
+            <div class="container text-center bloco2">
+                <a href="search2.php"><button class="btn btn-primary" >SEARCH GRAPH</button></a>
             </div>
         </section>
 
@@ -50,7 +50,6 @@
                     </div>
                     <div class="col-md-8" id="md-02">
                         <h3><strong>Coauthorship Relations</strong></h3>
-                        <img src="img/scopus.jpg" class="img-responsive img-rounded visible-xs" alt="" id="img-02" />
                         <p>
                             It was verified that there are several studies on complex networks of the most diverse authors and there is not a place to centralize all these studies for this was created the relations of coautoria with that was used the database of Scopus.
                             The co-authoring relationship has the concept of social network, but focused on the collaboration between authors and co-authors. Lately, this relationship has aroused the interest of the students, due to the evolution of the research communities. 
@@ -91,7 +90,7 @@
         	<div class="container">
             	<div class="row">
 					<div class="col-md-12">
-    					<img src="img/assets.png" alt="" class="img-rounded img-responsive" id="assets-img" />
+    					<img src="img/assets01.png" alt="" class="img-rounded img-responsive" id="assets-img" />
 					</div>
 				</div>
 				<hr class="hr-set01"/>
@@ -108,7 +107,7 @@
                     </div>
                     <div class="col-md-8" >
                         <h3><strong>JQUERY</strong></h3>
-                        <img src="img/jquery.gif" class="img-responsive img-rounded jquery visible-xs" alt="" />                        
+                                   
                         <p>
                           
                             JQuery is a JavaScript function library that interacts with HTML, designed to simplify interpreted scripts in the client-side browser. Launched in December 2006 at the BarCamp in New York by John Resig. Used by about 77% of the 10,000 most visited sites in the world, jQuery is the most popular JavaScript library.</p>

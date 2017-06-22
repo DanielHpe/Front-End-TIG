@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/estilo.css">
-		<link rel="stylesheet" href="css/tig-mobile.css">
+		
 	</head>
 	<body id="little-xx">
 	    <header class="navbar navbar-inverse" id="nav-xs">
@@ -20,7 +20,7 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand" href="#" ><strong style=""></strong> C<i class="fa fa-globe"></i>MPLEX <small >Network</small></a>
+	                <a class="navbar-brand" href="#" ><strong style=""></strong>C<i class="fa fa-globe"></i>MPLEX<small>Network</small></a>
 	            </div>
 	            <div class="navbar-collapse collapse move-me">
 	                <ul class="nav navbar-nav navbar-right set-links">
