@@ -1145,10 +1145,12 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 80%;
+    float: left;
+    border-top: 2px solid #ccc;
 }
 .sr-only {
   position: absolute;
@@ -3560,6 +3562,7 @@ tbody.collapse.in {
   line-height: 1.42857143;
   color: #333;
   white-space: nowrap;
+  height: 50px;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {

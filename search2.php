@@ -46,25 +46,68 @@
 
 <section id="pesquisar1"  href="#anime-pesq"></section>
 	    
-<section class="grafo">
-			<div class="container-fluid">
-				<div class="container-fluid">
-					<div class="col-md-7 teste" id="graph">
+		<!--<section class="grafo">
+					<div class="container-fluid">
+						<div class="container-fluid">
+							<div class="col-md-7 teste" id="graph">
+								<h1 class="text-center">AQUI FICA O GRAFO</h1>
+							</div>
+
+							<div class="col-md-5">
+								Teste
+							</div>
+						
+							<div class="row-fluid grafico">
+								<h2>GRAPHIC</h2>
+								 <hr class="hr-setup">
+							</div>
+						
+							<div class="row-fluid best-autor" >
+								<h2>BEST AUTHORS</h2>
+								 <hr class="hr-setup">
+							</div>
+						</div>
+					</div>
+		</section>!-->
+
+		<section class="grafo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7" id="graph">
 						<h1 class="text-center">AQUI FICA O GRAFO</h1>
 					</div>
-				
-					<div class="row-fluid grafico">
-						<h2>GRAPHIC</h2>
-						 <hr class="hr-setup">
-					</div>
-				
-					<div class="row-fluid best-autor" >
-						<h2>BEST AUTHORS</h2>
-						 <hr class="hr-setup">
+					<div class="col-md-4 info-node-xs">
+						<h1>STATS</h1>
+						<hr class="hr-setup">
+						<h3>ID Author: </h3>
+						<h3>Nº. Quots: </h3>
+						<h3>Nº. Articles: </h3>
+						<h3>Relevancy: </h3>
 					</div>
 				</div>
 			</div>
-</section>    
+		</section>	
+
+
+		<section style="margin-top: 100px; margin-bottom: 100px;" id="informations">
+			<div class="container">
+				<div class="row">
+			        <div class="col-md-8" id="col-md-graphic">
+		              	<h1>GRAPHIC</h1>
+		              	<hr class="hr-setup1">
+		            </div>
+			         <div class="col-md-4" id="info-autores">
+			            <h1>BEST AUTHOR</h1>
+			            <hr>
+			            <a href="#" style="font-size: 26px" ><i class="fa fa-arrow-right"></i>RICHARD BANKS</a>
+						<ul class="list-unstyled" style="margin-top: 15px;">
+							<li><a href="#"><i class="fa fa-angle-double-right "></i>15 ARTICLES</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right "></i>50 QUOTS</a></li>
+						</ul>
+			        </div>
+			    </div>    
+	        </div>
+	    </section>    
 
 	    <section id="articles-authors">
 	    	<div class="container">

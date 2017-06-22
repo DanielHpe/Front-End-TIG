@@ -526,14 +526,19 @@ h4 {
     border-left:2px solid #fff;  
 }
 #info-autores .hr-setup{
-    border-top: 2px solid #fff;
+    border-top: 2px solid #000;
+    margin-left: -16px;
+    width: 100%;
+}
+#info-autores .hr-setup1{
+    border-top: 2px solid #ccc;
     margin-left: -16px;
     width: 100%;
 }
 #info-autores a{
     text-decoration: none;
     font-size: 22px;
-    color: #fff; 
+    color: #000;
 }
 #info-autores a:hover{
     color:rgba(20, 152, 152, 1); 
@@ -557,10 +562,11 @@ h4 {
     padding-top:30px;
     color: #DFD1D1;
     margin-top: 120px;
-    background-color:#121212;
+    background-color: #fff;
 }
 #informations h1{
     font-weight: 800;
+    color: black;
 }
 #arrow-right{
     margin-top: 20px;
@@ -572,7 +578,6 @@ h4 {
     font-size: 30px;
 }
 #articles-authors{
-	margin-top:100px;
     background-color:#EFEFEF;
     height: 350px;
 }
@@ -618,7 +623,9 @@ h4 {
 #labels a{
     text-decoration: none;
 }
-
+.grafo.col-md-4{
+    border: 2px solid #ccc; margin-left: 10px; height: 650px;
+}
 /* =============================================================
    SEARCH.PHP ADD CLASSES
  ============================================================ */
@@ -704,6 +711,13 @@ h4 {
     width: 100%;
   
 }
+.info-node-xs{
+    border: 2px solid #ccc;
+    margin-left: 10px;
+    height: 650px;
+    width: 80%;
+    margin-left: 38px;
+}
 .bloco1 button:hover, .bloco2 button:hover, .bloco3 button:hover{
 	
 	color:#fff;
@@ -725,6 +739,8 @@ h4 {
 }
 #graph{
 	height:555px;
+    width: 80%;
+    margin-left: 38px;
 }
 .grafico{
 	margin-top:20px;
@@ -1238,9 +1254,8 @@ h4 {
 .grafico{
 	width:650px;
 	height:300px;
-	float:right;
-	
-	}
+	float:left;
+}
 .grafico h2{
 	color:#000;
 	font-weight:800;
@@ -1328,6 +1343,15 @@ h4 {
 #footer-sec p{
     text-align: justify;
 }
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    height: 50px;
 }
 
 
